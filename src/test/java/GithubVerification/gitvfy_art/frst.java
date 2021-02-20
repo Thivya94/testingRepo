@@ -25,9 +25,7 @@ public void test()
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 	driver.manage().deleteAllCookies();
-	
-	//Dimension dm = new Dimension(450,630);
-	//driver.manage().window().setSize(dm);
+	//update from 2
 	
 	driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 	
